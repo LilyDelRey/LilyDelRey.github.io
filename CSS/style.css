@@ -4,11 +4,14 @@ body{
 }
 .container{
     padding: 20px;
-    color: #ffffff;
+    color: #C4BDBD;
     width: 100%;
+    font-family:'Cabin',"Times New Roman", Georgia;
+}
+.header{
     background: url('../Images/banner2.jpg') no-repeat;
     background-size: cover;
-    font-family:'Cabin',"Times New Roman", Georgia;  
+    
 }
 .intro{
     margin: 0 auto;
@@ -22,21 +25,29 @@ body{
     font-size: 22px;
     font-weight: 100;
 }
-.container .h1{
+.header h1{
     font-size: 50px;
     font-weight: 800;
     margin-bottom: 40px;
     color: #ffffff;
 }
+
+.second h1{
+    font-family: 'Pacifico', 'Times New Roman', Georgia;
+}
+
 .block{
     text-align: center;
     width: 350px;
-    height: 250px;
+    height: 170px;
     border: 2px solid #C4BDBD;
-    margin: 0 auto;
-    display: table;
 }
-.container2{
-    margin: 0 auto;
-    width: 100%;
+.insight{
+    background: url('../Images/home1.png') no-repeat;
+    background-size: contain;
 }
+.times{
+    background: url('../Images/bigger.png') no-repeat;
+    background-size: contain;
+}
+
