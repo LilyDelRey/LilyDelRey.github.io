@@ -125,18 +125,27 @@ body{
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 10px;
-    color: #ffffff;
 }
 
 .projects h1, .contact h1{
     font-family: 'Pacifico', 'Times New Roman', Georgia;
 }
-
 .block{
     text-align: center;
-    width: 340px;
-    height: 170px;
+    width: 500px;
+    height: 250px;
     border: 2px solid #C4BDBD;
+}
+.projects{
+    text-align: center;
+}
+.projects #projects{
+    text-align: left;
+    margin-bottom: 40px;
+}
+.projects .times, .projects .insight{
+    margin: 0 auto;
+    margin-bottom: 40px;
 }
 .insight{
     background: url('../Images/home1.png') no-repeat;
@@ -145,18 +154,21 @@ body{
 .times{
     background: url('../Images/bigger.png') no-repeat;
     background-size: contain;
+    width: 510px;
 }
 
 #about{
     margin-top: 40px;
-    line-height: 18px;
-    font-family: 'Cabin', 'Sanchez';
+    line-height: 20px;
+    font-family: "Pacifico",'Cabin', 'Sanchez';
 }
 .about p{
     font-size: 20px;
 }
 .about li{
     list-style-type: none;
+    font-size: 18px;
+    font-family: "Cabin";
 }
 .about h1{
     font-size: 50px;
@@ -172,4 +184,7 @@ a{
 a:hover{
     text-decoration: none;
     color:#FCFCFF;
+}
+.soc{
+    margin-top: 80px;
 }
