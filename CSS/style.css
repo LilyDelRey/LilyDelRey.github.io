@@ -138,12 +138,14 @@ body{
 }
 .projects{
     text-align: center;
+    font-family: 'Pacifico', 'Times New Roman', Georgia;
+    border-top: 2px solid #918888;
 }
 .projects #projects{
     text-align: left;
     margin-bottom: 40px;
 }
-.projects .times, .projects .insight{
+.projects .times, .projects .insight, .projects .starnight{
     margin: 0 auto;
     margin-bottom: 40px;
 }
@@ -156,23 +158,32 @@ body{
     background-size: contain;
     width: 510px;
 }
+.starnight{
+    background: url('../Images/starnight.png') no-repeat;
+    background-size: contain; 
+     height: 220px;
+}
+#projects{
+   margin-left: 550px; 
+  
+}
 
 #about{
     margin-top: 40px;
     line-height: 20px;
-    font-family: "Pacifico",'Cabin', 'Sanchez';
+    margin-left: 50px;
+    margin-bottom: 50px;
 }
 .about p{
-    font-size: 20px;
+    font-size: 14px;
 }
 .about li{
     list-style-type: none;
-    font-size: 18px;
-    font-family: "Cabin";
+    font-size: 14px;
 }
 .about h1{
     font-size: 50px;
-    font-family: "Pacifico";
+    margin-bottom: 30px;
 }
 .about ul{
     padding-left: 0;
@@ -187,4 +198,11 @@ a:hover{
 }
 .soc{
     margin-top: 80px;
+}
+.about{
+    /*background: url('../Images/background2.jpg') no-repeat;
+    background-size: cover;*/
+    width: 100%;
+    color: #C09797;
+    font-family: 'Roboto', "Times New Roman";
 }
