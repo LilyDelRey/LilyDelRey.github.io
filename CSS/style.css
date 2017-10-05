@@ -175,8 +175,15 @@ body{
     padding-left: 0;
     margin-left: 2vw;
 }
+.about .fadein{
+    opacity: 0;
+}
 .mine{
     margin-left: 7.5vw;
+}
+.mine img{
+    border-radius: 50%;
+    margin-top: 5vh;
 }
 a{
     text-decoration: none;
